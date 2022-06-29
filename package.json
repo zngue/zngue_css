@@ -1,6 +1,6 @@
 {
   "name": "zngue_css",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "zngue.css",
   "scripts": {
@@ -8,6 +8,10 @@
     "build": "rimraf zngue.css  && lessc zngue.less zngue.css",
     "build-m": "rimraf zngue.min.css &&  lessc --clean-css zngue.less zngue.min.css",
     "lk": "npm link zngue_css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zngue/zngue_css.git"
   },
   "keywords": [
     "css",
