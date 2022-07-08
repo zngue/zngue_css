@@ -545,11 +545,6 @@
 }
 .u-f-family {
   font-family: system-ui, -apple-system, "Helvetica Neue", sans-serif;
-}
-*,
-html,
-body {
-  font-family: system-ui, -apple-system, "Helvetica Neue", sans-serif;
   padding: 0;
   margin: 0;
   outline: 0;

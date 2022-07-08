@@ -7,7 +7,8 @@
     "all": " yarn  build && yarn build-m ",
     "build": "rimraf zngue.css  && lessc zngue.less zngue.css",
     "build-m": "rimraf zngue.min.css &&  lessc --clean-css zngue.less zngue.min.css",
-    "lk": "npm link zngue_css"
+    "lk": "npm link zngue_css",
+    "push": "git add . && git commit -m 'fix:' && git push && npm publish"
   },
   "repository": {
     "type": "git",
